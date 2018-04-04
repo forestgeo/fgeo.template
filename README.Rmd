@@ -34,7 +34,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r
 library(usethis)
-use_template(template = "README.Rmd", package = "fgeo")
+use_template(template = "README.Rmd", package = "fgeo.templates")
 ```
 
 ## Code of Conduct
