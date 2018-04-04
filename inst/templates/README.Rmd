@@ -47,9 +47,8 @@ For details on how to install packages from GitHub, see [this article](https://g
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-## basic example code
+## TODO: Add example
 ```
-
 
 ## Code of Conduct
 
@@ -57,9 +56,6 @@ EDIT: Run this:
 
 ```
 use_tidy_coc()
-
-use_directory(".github")
-# move coc manually to .github/
 ```
 
 ## EDIT: READ AND DELETE THIS SECTION
