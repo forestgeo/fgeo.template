@@ -1,2 +1,6 @@
 ^fgeo\.templates\.Rproj$
 ^\.Rproj\.user$
+^tmp\.R$
+^\.github$
+^README\.Rmd$
+^LICENSE\.md$

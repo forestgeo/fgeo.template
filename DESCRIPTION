@@ -2,10 +2,15 @@ Package: fgeo.templates
 Version: 0.0.0.9000
 Title: Templates Used to Build ForestGEO Packages
 Description: Templates used to build ForestGEO packages.
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-License: What license is it under?
+Authors@R: c(
+  person("Mauro", "Lepore", , "leporem@si.edu", role = c("aut", "ctr", "cre")),
+  person("CTFS-ForestGEO", , , "ForestGEO@si.edu", role = c("cph", "fnd"))
+  )
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
 URL: https://github.com/forestgeo/fgeo.templates
 BugReports: https://github.com/forestgeo/fgeo.templates/issues
