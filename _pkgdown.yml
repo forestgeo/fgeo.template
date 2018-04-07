@@ -1,4 +1,4 @@
-url: https://forestgeo.github.io/fgeo.templates/
+url: https://forestgeo.github.io/fgeo.template/
 
 authors:
   Mauro Lepore:
@@ -22,14 +22,11 @@ navbar:
   type: default
 
   right:
-    - text: News
-      href: news/index.html
-
     - icon: fa-gavel
       href: https://github.com/maurolepore
 
     - icon: fa-github
-      href: https://github.com/forestgeo/fgeo.templates
+      href: https://github.com/forestgeo/fgeo.template
 
     - text: fgeo
       href: https://forestgeo.github.io/fgeo/

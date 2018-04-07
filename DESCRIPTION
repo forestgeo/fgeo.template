@@ -1,4 +1,4 @@
-Package: fgeo.templates
+Package: fgeo.template
 Title: Templates Used to Build ForestGEO Packages
 Version: 0.0.0.9000
 Authors@R: c(
@@ -7,8 +7,8 @@ Authors@R: c(
   )
 Description: Templates used to build ForestGEO packages.
 License: GPL-3
-URL: https://github.com/forestgeo/fgeo.templates
-BugReports: https://github.com/forestgeo/fgeo.templates/issues
+URL: https://github.com/forestgeo/fgeo.template
+BugReports: https://github.com/forestgeo/fgeo.template/issues
 Imports: 
     usethis
 Suggests: 

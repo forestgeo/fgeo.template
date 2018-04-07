@@ -1,6 +1,6 @@
-# Contributing to fgeo.templates
+# Contributing to fgeo.template
 
-This outlines how to propose a change to __fgeo.templates__. For more detailed info about contributing to this, and other __fgeo.templates__ packages, please see the [**development contributing guide of the tidyverse**](https://rstd.io/tidy-contrib) (wherever you read __tidyverse__ think __fgeo.templates__).
+This outlines how to propose a change to __fgeo.template__. For more detailed info about contributing to this, and other __fgeo.template__ packages, please see the [**development contributing guide of the tidyverse**](https://rstd.io/tidy-contrib) (wherever you read __tidyverse__ think __fgeo.template__).
 
 ### Fixing typos
 
@@ -28,4 +28,4 @@ You can use the [styler](https://CRAN.R-project.org/package=styler) package to a
 
 Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
-See tidyverse [development contributing guide](https://rstd.io/tidy-contrib) for further details (wherever you read __tidyverse__ think __fgeo.templates__).
+See tidyverse [development contributing guide](https://rstd.io/tidy-contrib) for further details (wherever you read __tidyverse__ think __fgeo.template__).
