@@ -48,14 +48,42 @@ This is a basic example which shows you how to solve a common problem:
 ## TODO: Add example
 ```
 
-## Code of Conduct
+## Information
 
-EDIT: Run this:
+
+EDIT: Run this chunk then delete it:
+TODO: Move files to .github/ but paste (FILEE.md), not (.github/FILE.md)
 
 ```
-use_tidy_coc()
-# TODO: Ensure to paste (CODE_OF_CONDUCT.md), not (.github/CODE_OF_CONDUCT.md)
+usethis::use_template("SUPPORT.md", package = "fgeo.template")
+usethis::use_template("CONTRIBUTING.md", package = "fgeo.template")
+usethis::use_template("CODE_OF_CONDUCT.md", package = "fgeo.template")
 ```
+
+* [Getting help](SUPPORT.md).
+* [Contributing](CONTRIBUTING.md).
+* [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Acknowledgements
+
+Thanks to all partners of ForestGEO, for sharing their ideas and code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## EDIT: READ AND DELETE THIS SECTION
 
