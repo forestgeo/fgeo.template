@@ -31,8 +31,6 @@ use_coverage("coveralls")
 
 The goal of __EDIT-PACKAGE-NAME__ is to ...
 
-
-
 ## Installation
 
 ```
@@ -56,6 +54,7 @@ EDIT: Run this:
 
 ```
 use_tidy_coc()
+# TODO: Ensure to paste (CODE_OF_CONDUCT.md), not (.github/CODE_OF_CONDUCT.md)
 ```
 
 ## EDIT: READ AND DELETE THIS SECTION

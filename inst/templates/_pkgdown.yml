@@ -21,21 +21,9 @@ navbar:
 
   type: default
 
-  left:
-    - text: Functions Index
-      href: reference/index.html
-
   right:
     - text: Tutorials
       href: articles/index.html
-
-    - text: Apps
-      menu:
-      - text: EDIT-TITLE
-        href: EDIT-LINK
-
-    - text: News
-      href: news/index.html
 
     - icon: fa-gavel
       href: https://github.com/maurolepore
@@ -64,9 +52,3 @@ reference:
   - title: Datasets
     contents:
       - EDIT-DATASET-NAME
-
-articles:
-
-  - title: EDIT-TITLE
-    contents:
-      - EDIT-VIGNETTE-NAME
