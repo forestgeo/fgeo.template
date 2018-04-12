@@ -8,9 +8,12 @@
 git status
 git add .
 git commit -a -m "Commit message"
+
 git pull
 git push
 git remote prune origin
+
+git commit --amend -m "Add instructions"
 
 # master
 git checkout master
@@ -28,3 +31,6 @@ git checkout FEATURE
 git merge FEATURE
 git branch -d FEATURE
 git push origin --delete FEATURE
+
+# DANGER ZONE
+git push --force FEATURE
