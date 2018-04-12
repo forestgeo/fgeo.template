@@ -1,6 +1,8 @@
-REMOVE
-usethis::use_build_ignore("tmp.sh")
-usethis::use_git_ignore("tmp.sh")
+# NOTE: Ctrl + enter sends to terminal (not console) because this is a .sh file.
+
+# TODO: To ignore this file, run this in the R console 
+# usethis::use_build_ignore("tmp.sh")
+# usethis::use_git_ignore("tmp.sh")
 
 # General
 git status
