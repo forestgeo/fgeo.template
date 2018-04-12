@@ -8,11 +8,10 @@
 git status
 git add .
 git commit -a -m "Commit message"
-
 git pull
 git push
-git remote prune origin
 
+git remote prune origin
 git commit --amend -m "Add instructions"
 
 # master
