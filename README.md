@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# <img src="https://i.imgur.com/39pvr4n.png" align="right" height=44 /> fgeo.template
+# <img src="https://i.imgur.com/m8FNhQR.png" align="right" height=88 /> fgeo.template
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN
@@ -28,8 +28,12 @@ library(usethis)
 use_template(template = "README.Rmd", package = "fgeo.template")
 ```
 
-## Code of Conduct
+## Information
 
-Please note that this project is released with a [Contributor Code of
-Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree
-to abide by its terms.
+  - [Getting help](SUPPORT.md).
+  - [Contributing](CONTRIBUTING.md).
+  - [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Acknowledgements
+
+Thanks to all partners of ForestGEO, for sharing their ideas and code.
