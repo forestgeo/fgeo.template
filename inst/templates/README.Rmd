@@ -50,9 +50,8 @@ This is a basic example which shows you how to solve a common problem:
 
 ## Information
 
-
 EDIT: Run this chunk then delete it:
-TODO: Move files to .github/ but paste (FILEE.md), not (.github/FILE.md)
+TODO: Move files to .github/ but refer to (FILE.md), not (.github/FILE.md)
 
 ```
 usethis::use_template("SUPPORT.md", package = "fgeo.template")
