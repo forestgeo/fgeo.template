@@ -11,7 +11,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# <img src="https://i.imgur.com/m8FNhQR.png" align="right" height=88 /> EDIT-PACKAGE-NAME
+# <img src="https://i.imgur.com/m8FNhQR.png" align="right" height=88 /> EDIT-DESCRIPTION
 
 EDIT: ADD BADGES CREATED WITH:
 

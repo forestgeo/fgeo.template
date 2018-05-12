@@ -22,9 +22,7 @@ navbar:
   type: default
 
   right:
-    - text: Tutorials
-      href: articles/index.html
-
+  
     - icon: fa-gavel
       href: https://github.com/maurolepore
 
