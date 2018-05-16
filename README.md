@@ -34,6 +34,6 @@ use_template(template = "README.Rmd", package = "fgeo.template")
   - [Contributing](CONTRIBUTING.md).
   - [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
 
-## Acknowledgements
+## Acknowledgments
 
 Thanks to all partners of ForestGEO, for sharing their ideas and code.
