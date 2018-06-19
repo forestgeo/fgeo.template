@@ -68,23 +68,7 @@ usethis::use_template("CODE_OF_CONDUCT.md", package = "fgeo.template")
 Thanks to all partners of ForestGEO, for sharing their ideas and code.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## EDIT: READ AND DELETE THIS SECTION
+## READ AND DELETE THIS SECTION
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 

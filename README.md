@@ -1,15 +1,13 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# <img src="https://i.imgur.com/m8FNhQR.png" align="right" height=88 /> fgeo.template
+# <img src="https://i.imgur.com/m8FNhQR.png" align="right" height=88 /> templates to build **fgeo** packages
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/fgeo.template)](https://cran.r-project.org/package=fgeo.template)
 [![Travis build
 status](https://travis-ci.org/forestgeo/fgeo.template.svg?branch=master)](https://travis-ci.org/forestgeo/fgeo.template)
-
-**fgeo.template** provides templates to build **fgeo** packages.
 
 ## Installation
 
