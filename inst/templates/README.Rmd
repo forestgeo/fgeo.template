@@ -50,7 +50,7 @@ This is a basic example which shows you how to solve a common problem:
 ## TODO: Add example
 ```
 
-[Get started](https://forestgeo.github.io/fgeo/articles/fgeo.html)
+[Get started with __fgeo__](https://forestgeo.github.io/fgeo/articles/fgeo.html)
 
 ## Information
 
