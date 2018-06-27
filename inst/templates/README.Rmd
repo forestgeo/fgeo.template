@@ -33,6 +33,8 @@ The goal of __EDIT-PACKAGE-NAME__ is to ...
 
 ## Installation
 
+[Install all __fgeo__ packages in one step](https://forestgeo.github.io/fgeo/index.html#installation)
+
 ```
 # install.packages("remotes")
 remotes::install_github("EDIT-OWNER/EDIT-PACKAGE-NAME")
@@ -47,6 +49,8 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 ## TODO: Add example
 ```
+
+[Get started](https://forestgeo.github.io/fgeo/articles/fgeo.html)
 
 ## Information
 
