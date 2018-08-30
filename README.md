@@ -11,8 +11,8 @@ status](https://travis-ci.org/forestgeo/fgeo.template.svg?branch=master)](https:
 
 ## Installation
 
-    # install.packages("remotes")
-    remotes::install_github("forestgeo/fgeo.template")
+    # install.packages("devtools")
+    devtools::install_github("forestgeo/fgeo.template")
 
 For details on how to install packages from GitHub, see [this
 article](https://goo.gl/dQKEeg).
