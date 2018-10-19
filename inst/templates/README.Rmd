@@ -33,12 +33,21 @@ The goal of __EDIT-PACKAGE-NAME__ is to ...
 
 ## Installation
 
-[Install all __fgeo__ packages in one step](https://forestgeo.github.io/fgeo/index.html#installation)
+Install the pre-release version of **PACKAGE-NAME**:
 
 ```
-# install.packages("remotes")
-remotes::install_github("EDIT-OWNER/EDIT-PACKAGE-NAME")
+# install.packages("devtools")
+devtools::install_github("forestgeo/PACKAGE-NAME@pre-release")
 ```
+
+Or install the development version of **PACKAGE-NAME**:
+
+```
+# install.packages("devtools")
+devtools::install_github("forestgeo/PACKAGE-NAME")
+```
+
+Or [install all **fgeo** packages in one step](https://forestgeo.github.io/fgeo/index.html#installation).
 
 For details on how to install packages from GitHub, see [this article](https://goo.gl/dQKEeg).
 
