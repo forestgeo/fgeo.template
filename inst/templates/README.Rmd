@@ -61,6 +61,7 @@ TODO: Move files to .github/ but refer to (FILE.md), not (.github/FILE.md)
 usethis::use_template("SUPPORT.md", package = "fgeo.template")
 usethis::use_template("CONTRIBUTING.md", package = "fgeo.template")
 usethis::use_template("CODE_OF_CONDUCT.md", package = "fgeo.template")
+usethis::use_template("ISSUE_TEMPLATE.md", package = "fgeo.template")
 ```
 
 * [Getting help](SUPPORT.md).
