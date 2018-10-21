@@ -24,7 +24,10 @@ EDIT: CONSIDER ADDING BADGES CREATED WITH:
 
 ```
 # In .travis.yml consider adding `warnings_are_errors: false`
+# IMPORTANT: Sent environmental variable to avoid errors due to rate limits:
+# https://github.com/forestgeo/learn/issues/148
 use_travis()
+
 use_appveyor()
 
 use_coverage("coveralls")
