@@ -24,8 +24,9 @@ EDIT: CONSIDER ADDING BADGES CREATED WITH:
 
 ```
 # In .travis.yml consider adding `warnings_are_errors: false`
-# IMPORTANT: Sent environmental variable to avoid errors due to rate limits:
-# https://github.com/forestgeo/learn/issues/148
+# IMPORTANT (to avoid errors due to low limit rate):
+# Get GITHUB_PAT with usethis::edit_r_environ() and set it as environmental 
+# variablel on travis (see https://github.com/forestgeo/learn/issues/148)
 use_travis()
 
 use_appveyor()
