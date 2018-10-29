@@ -82,9 +82,6 @@ usethis::use_template("ISSUE_TEMPLATE.md", package = "fgeo.template")
 * [Contributing](CONTRIBUTING.md).
 * [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
 
-## Acknowledgments
-
-Thanks to all partners of ForestGEO, for sharing their ideas and code.
 
 
 ## READ AND DELETE THIS SECTION
