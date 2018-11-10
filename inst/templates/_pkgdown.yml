@@ -13,7 +13,7 @@ template:
 home:
   links:
     - text: Learn more about ForestGEO
-    href: http://www.forestgeo.si.edu/
+      href: http://www.forestgeo.si.edu/
 
 
 
