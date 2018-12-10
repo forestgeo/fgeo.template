@@ -28,8 +28,6 @@ For details on how to install packages from GitHub, see [this article](https://g
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
-
 ```{r
 library(usethis)
 use_template(template = "README.Rmd", package = "fgeo.template")

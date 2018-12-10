@@ -29,8 +29,6 @@ EDIT: CONSIDER ADDING BADGES CREATED WITH:
 # variablel on travis (see https://github.com/forestgeo/learn/issues/148)
 use_travis()
 
-use_appveyor()
-
 use_coverage("coveralls")
 ```
 
@@ -38,18 +36,18 @@ The goal of __EDIT-PACKAGE-NAME__ is to ...
 
 ## Installation
 
-Install the pre-release version of **PACKAGE-NAME**:
+Install the pre-release version of **EDIT-PACKAGE-NAME**:
 
 ```
 # install.packages("devtools")
-devtools::install_github("forestgeo/PACKAGE-NAME@pre-release")
+devtools::install_github("forestgeo/EDIT-PACKAGE-NAME@pre-release")
 ```
 
-Or install the development version of **PACKAGE-NAME**:
+Or install the development version of **EDIT-PACKAGE-NAME**:
 
 ```
 # install.packages("devtools")
-devtools::install_github("forestgeo/PACKAGE-NAME")
+devtools::install_github("forestgeo/EDIT-PACKAGE-NAME")
 ```
 
 Or [install all **fgeo** packages in one step](https://forestgeo.github.io/fgeo/index.html#installation).

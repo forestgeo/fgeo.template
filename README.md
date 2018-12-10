@@ -19,8 +19,6 @@ article](https://goo.gl/dQKEeg).
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
-
 ``` {r
 library(usethis)
 use_template(template = "README.Rmd", package = "fgeo.template")
