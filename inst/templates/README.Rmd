@@ -36,14 +36,7 @@ The goal of __EDIT-PACKAGE-NAME__ is to ...
 
 ## Installation
 
-Install the pre-release version of **EDIT-PACKAGE-NAME**:
-
-```
-# install.packages("devtools")
-devtools::install_github("forestgeo/EDIT-PACKAGE-NAME@pre-release")
-```
-
-Or install the development version of **EDIT-PACKAGE-NAME**:
+Install the development version of **EDIT-PACKAGE-NAME**:
 
 ```
 # install.packages("devtools")
@@ -52,11 +45,7 @@ devtools::install_github("forestgeo/EDIT-PACKAGE-NAME")
 
 Or [install all **fgeo** packages in one step](https://forestgeo.github.io/fgeo/index.html#installation).
 
-For details on how to install packages from GitHub, see [this article](https://goo.gl/dQKEeg).
-
 ## Example
-
-This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 ## TODO: Add example

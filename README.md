@@ -14,14 +14,11 @@ status](https://travis-ci.org/forestgeo/fgeo.template.svg?branch=master)](https:
     # install.packages("devtools")
     devtools::install_github("forestgeo/fgeo.template")
 
-For details on how to install packages from GitHub, see [this
-article](https://goo.gl/dQKEeg).
-
 ## Example
 
 ``` {r
 library(usethis)
-use_template(template = "README.Rmd", package = "fgeo.template")
+use_template("README.Rmd", package = "fgeo.template")
 ```
 
 ## Information
