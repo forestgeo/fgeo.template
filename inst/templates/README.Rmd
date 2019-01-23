@@ -38,7 +38,7 @@ The goal of __EDIT-PACKAGE-NAME__ is to ...
 
 Install the development version of **EDIT-PACKAGE-NAME**:
 
-```
+```R
 # install.packages("devtools")
 devtools::install_github("forestgeo/EDIT-PACKAGE-NAME")
 ```

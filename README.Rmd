@@ -19,14 +19,14 @@ knitr::opts_chunk$set(
 
 ## Installation
 
-```
+```R
 # install.packages("devtools")
 devtools::install_github("forestgeo/fgeo.template")
 ```
 
 ## Example
 
-```{r
+```R
 library(usethis)
 use_template("README.Rmd", package = "fgeo.template")
 ```
