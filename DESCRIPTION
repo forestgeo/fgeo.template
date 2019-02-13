@@ -10,7 +10,9 @@ License: GPL-3
 URL: https://github.com/forestgeo/fgeo.template
 BugReports: https://github.com/forestgeo/fgeo.template/issues
 Imports: 
-    usethis
+    usethis,
+    fs,
+    rlang
 Suggests: 
     covr
 ByteCompile: true
