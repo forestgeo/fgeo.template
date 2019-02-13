@@ -4,6 +4,12 @@
     <loc>https://forestgeo.github.io/fgeo.template//index.html</loc>
   </url>
   <url>
+    <loc>https://forestgeo.github.io/fgeo.template//reference/copy_lifecycle_figures.html</loc>
+  </url>
+  <url>
     <loc>https://forestgeo.github.io/fgeo.template//reference/fgeo.template-package.html</loc>
+  </url>
+  <url>
+    <loc>https://forestgeo.github.io/fgeo.template//reference/lifecycle.html</loc>
   </url>
 </urlset>

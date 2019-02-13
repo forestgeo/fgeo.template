@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • fgeo.template</title>
+<title>Embed a lifecycle badge in documentation — lifecycle • fgeo.template</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -30,7 +30,20 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="Embed a lifecycle badge in documentation — lifecycle" />
+
+<meta property="og:description" content="(From https://github.com/r-lib/rlang/blob/master/R/compat-lifecycle.R)
+Use lifecycle() within a Sexpr macro to embed a
+lifecycle badge in your
+documentation. The badge should appear first in the description:\Sexpr[results=rd, stage=render]{mypkg:::lifecycle(&quot;questioning&quot;)}
+" />
+
+<meta property="og:description" content="The badge appears as an image in the HTML version of the
+documentation. To make them available in your package, visit
+https://github.com/r-lib/rlang/tree/master/man/figures and copy
+all the files starting with lifecycle- in your man/figures/
+folder." />
+<meta name="twitter:card" content="summary" />
 
 
 
@@ -47,7 +60,7 @@
   </head>
 
   <body>
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -106,48 +119,49 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>Embed a lifecycle badge in documentation</h1>
+    <small class="dont-index">Source: <a href='https://github.com/forestgeo/fgeo.template/blob/master/R/copy_lifecycle_badges.R'><code>R/copy_lifecycle_badges.R</code></a></small>
+    <div class="hidden name"><code>lifecycle.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    
+    <p>(From <a href='https://github.com/r-lib/rlang/blob/master/R/compat-lifecycle.R'>https://github.com/r-lib/rlang/blob/master/R/compat-lifecycle.R</a>)</p>
+<p>Use <code>lifecycle()</code> within a <code>Sexpr</code> macro to embed a
+<a href='https://www.tidyverse.org/lifecycle/'>lifecycle</a> badge in your
+documentation. The badge should appear first in the description:</p><pre>\Sexpr[results=rd, stage=render]{mypkg:::lifecycle("questioning")}
+</pre>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <p>The badge appears as an image in the HTML version of the
+documentation. To make them available in your package, visit
+<a href='https://github.com/r-lib/rlang/tree/master/man/figures'>https://github.com/r-lib/rlang/tree/master/man/figures</a> and copy
+all the files starting with <code>lifecycle-</code> in your <code>man/figures/</code>
+folder.</p>
+    
+    </div>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-all-functions" class="hasAnchor"><a href="#section-all-functions" class="anchor"></a>All functions</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      <tr>
-        
-        <td>
-          <p><code><a href="copy_lifecycle_figures.html">copy_lifecycle_figures()</a></code> </p>
-        </td>
-        <td><p>Copy into ./man/files the figures required to support lifecycle badges.</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="lifecycle.html">lifecycle</a></code> </p>
-        </td>
-        <td><p>Embed a lifecycle badge in documentation</p></td>
-      </tr>
-    </tbody>
+    
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>stage</th>
+      <td><p>A lifecycle stage as a string, one of:
+<code>"experimental"</code>, <code>"maturing"</code>, <code>"stable"</code>, <code>"questioning"</code>,
+<code>"archived"</code>, <code>"soft-deprecated"</code>, <code>"deprecated"</code>, <code>"defunct"</code>.</p></td>
+    </tr>
     </table>
-  </div>
+    
 
+  </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#section-all-functions">All functions</a></li>
-    </ul>
+      <li><a href="#arguments">Arguments</a></li>
+                </ul>
+
   </div>
 </div>
 
