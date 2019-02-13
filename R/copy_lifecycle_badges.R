@@ -1,3 +1,30 @@
+#' Embed a lifecycle badge in documentation
+#'
+#' @description
+#' 
+#' (From <https://github.com/r-lib/rlang/blob/master/R/compat-lifecycle.R>)
+#'
+#' Use `lifecycle()` within a `Sexpr` macro to embed a
+#' [lifecycle](https://www.tidyverse.org/lifecycle/) badge in your
+#' documentation. The badge should appear first in the description:
+#'
+#' ```
+#' \Sexpr[results=rd, stage=render]{mypkg:::lifecycle("questioning")}
+#' ```
+#'
+#' The badge appears as an image in the HTML version of the
+#' documentation. To make them available in your package, visit
+#' <https://github.com/r-lib/rlang/tree/master/man/figures> and copy
+#' all the files starting with `lifecycle-` in your `man/figures/`
+#' folder.
+#'
+#' @param stage A lifecycle stage as a string, one of:
+#'   `"experimental"`, `"maturing"`, `"stable"`, `"questioning"`,
+#'   `"archived"`, `"soft-deprecated"`, `"deprecated"`, `"defunct"`.
+#'
+#' @name lifecycle
+NULL
+
 #' Copy into ./man/files the figures required to support lifecycle badges.
 #' 
 #' \Sexpr[results=rd, stage=render]{fgeo.template:::lifecycle("maturing")}
