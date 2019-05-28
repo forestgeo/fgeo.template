@@ -25,6 +25,8 @@ use_template("README.Rmd", package = "fgeo.template")
 
 ## Information
 
-  - [Getting help](SUPPORT.md).
-  - [Contributing](CONTRIBUTING.md).
-  - [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
+  - [Getting
+    help](https://github.com/forestgeo/fgeo.plot/blob/master/.github/SUPPORT.md).
+  - [Contributing](https://github.com/forestgeo/fgeo.plot/blob/master/.github/CONTRIBUTING.md).
+  - [Contributor Code of
+    Conduct](https://github.com/forestgeo/fgeo.plot/blob/master/.github/CODE_OF_CONDUCT.md).
